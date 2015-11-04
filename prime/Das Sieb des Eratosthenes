@@ -1,0 +1,7 @@
+Das Sieb des Eratosthenes ist ein Algorithmus zur Bestimmung aller Primzahlen kleiner oder
+gleich einer vorgegebenen Zahl n. 
+Dazu notiert man alle Zahlen zwischen 2 und n. 
+Dann gibt man die Primzahl 2 aus, und streicht alle Vielfachen von 2 aus der Zahlenliste. 
+Dann gibt man die nächste Zahl in der Liste aus, die Primzahl 3, und streicht alle Vielfachen von 3. 
+Da die 4 als ein Vielfaches von 2 nicht mehr in der Liste existiert, wird als nächstes die Primzahl 5 ausgegeben, und wiederum alle Vielfachen von 5 gestrichen. 
+Dieser Vorgang wird bis zur Zahl n fortgeführt. Am Ende erhält man alle Primzahlen kleiner oder gleich n als Ausgabe.

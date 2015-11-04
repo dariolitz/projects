@@ -1,0 +1,56 @@
+Name	Status	Hersteller	Seriennummer	Typ	Modell	Betriebssystem	Standort	Letzte Aktualisierung	Prozessor
+lc-laptop-BW	aktiv	Dell Inc.	DCH3FV1	Notebook	Latitude E6320	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-06-01 10:36	Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+LC-LAPTOP-DS	aktiv	Dell Inc.	6GH3FV1	Notebook	Latitude E6320	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-06-01 10:36	Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+lc-laptop-ED	aktiv	Dell Inc.	3JH3FV1	Notebook	Latitude E6320	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-15 09:40	Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+lckn-dmz003	aktiv	VMware, Inc.	VMware-42 01 f5 94 67 d8 55 36-e2 4e 23 0a 08 81 bf c5	VMware	VMware Virtual Platform	Ubuntu 14.04.2 LTS		2015-03-30 10:27	Intel(R) Xeon(R) CPU E5-2643 v2 @ 3.50GHz
+lckn-lager	aktiv	Dell Inc.	11FPRD1	Mini Tower	OptiPlex 745	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-01 08:02	Intel(R) Pentium(R) D CPU 3.40GHz
+LCKN-NB101	aktiv	Dell Inc.	3RH3FV1	Notebook	Latitude E6320	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-06-01 10:36	Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+LCKN-NB102	aktiv	Dell Inc.	DP1WYZ1	Notebook	Latitude E6330 (Mid 2012)	Microsoft Windows 7 Professional	Jakob-Stadler-Platz 7, 78467 Konstanz	2015-08-25 09:36	Intel(R) Core(TM) i5-3340M CPU @ 2.70GHz
+LCKN-NB103	aktiv	LENOVO	PF01UDSF	Notebook	20AQ0069GE	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-13 11:52	Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+LCKN-NB104	aktiv	Dell Inc.	CBH3FV1	Notebook	Latitude E6320	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-19 09:16	Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+LCKN-NB105	aktiv	LENOVO	PF02F37S	Notebook	20AQ007SGE	Microsoft Windows 10 Pro	Line-Eid-Straße 3, 78467 Konstanz	2015-08-27 18:25	Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+LCKN-NB106	aktiv	LENOVO	PC01LW44	Notebook	20AQ009DGE	Microsoft Windows 7 Ultimate	Line-Eid-Straße 3, 78467 Konstanz	2015-05-20 12:40	Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
+LCKN-NB107	aktiv	LENOVO	PC01LW3Z	Notebook	20AQ009DGE	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-13 09:06	Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
+LCKN-NB108	aktiv	LENOVO	PC027RDR	Notebook	20AQ009DGE	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-04-08 09:28	Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
+lckn-nb109	aktiv	Dell Inc.	3H80CS1	Notebook	Latitude E6320	Microsoft Windows 7 Professional	Jakob-Stadler-Platz 7, 78467 Konstanz	2015-10-14 09:03	Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+lckn-nb110	aktiv	LENOVO	PC02Y44C	Notebook	20AQ009DGE	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-06-11 12:04	Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
+LCKN-NB111	aktiv	LENOVO	PC02Y45E	Notebook	20AQ009DGE	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-02 16:55	Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
+LCKN-NB112	aktiv	Dell Inc.	JX96CW1	Notebook	Latitude E5530 non-vPro	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-09 11:42	Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz
+LCKN-NB113	aktiv	LENOVO	PC06HCJ7	Notebook	20BX0013GE	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-02 16:55	Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+LCKN-NB114	aktiv	Dell Inc.	1DPHJX1	Notebook	Latitude E6530	Microsoft Windows 10 Pro	Line-Eid-Straße 3, 78467 Konstanz	2015-10-02 11:17	Intel(R) Core(TM) i7-3740QM CPU @ 2.70GHz
+lckn-srv012		TAROX	1382595	Physical	ParX R4360s	CentOS release 5.10 (Final)		2015-06-01 10:37	Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz
+LCKN-SRV013	aktiv	VMware, Inc.	VMware-56 4d b0 71 a1 f6 15 57-23 f6 c2 dc a6 fa 32 1f	VMware	VMware Virtual Platform	Microsoft Windows Server 2012 Standard	Line-Eid-Straße 3, 78467 Konstanz > Serverraum	2015-08-22 19:12	Intel(R) Xeon(R) CPU E5-2643 v2 @ 3.50GHz
+lckn-srv015		Dell Inc.	FQ6BB5J	Physical	PowerEdge R510	CentOS release 5.8 (Final)		2015-06-01 10:37	Intel(R) Xeon(R) CPU X5660 @ 2.80GHz
+lckn-srv016		Dell Inc.	DQ6BB5J	Physical	PowerEdge R510	CentOS release 5.8 (Final)		2015-06-01 10:37	Intel(R) Xeon(R) CPU X5660 @ 2.80GHz
+LCKN-SRV018	aktiv	VMware, Inc.	VMware-56 4d dd 08 91 b7 99 0a-a5 35 bf b3 f1 cd b1 b4	VMware	VMware Virtual Platform	Microsoft Windows Server 2008 R2 Enterprise	Line-Eid-Straße 3, 78467 Konstanz > Serverraum	2015-10-14 18:02	Intel(R) Xeon(R) CPU E5-2643 v2 @ 3.50GHz
+LCKN-SRV019	aktiv	VMware, Inc.	VMware-56 4d 04 2f 16 1d 13 ea-ca e0 7e 08 70 08 37 69	VMware	VMware Virtual Platform	Microsoft Windows Server 2012 Standard	Line-Eid-Straße 3, 78467 Konstanz > Serverraum	2015-10-15 03:10	Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+lckn-srv020		FUJITSU	YLLB001166	Physical	PRIMERGY TX140 S1p	CentOS release 6.6 (Final)		2015-06-01 10:37	Intel(R) Xeon(R) CPU E3-1220 V2 @ 3.10GHz
+lckn-srv021	aktiv	Dell Inc.	C20HS12	Physical	PowerEdge R420	Ubuntu 12.04.5 LTS	Jakob-Stadler-Platz 7, 78467 Konstanz > Serverraum LC	2015-06-01 10:37	Intel(R) Xeon(R) CPU E5-2420 0 @ 1.90GHz
+LCKN-SRV022	aktiv	Dell Inc.	BQ1RJY1	Physical	PowerEdge R210 II	Microsoft Windows Server 2012 R2 Standard	Jakob-Stadler-Platz 7, 78467 Konstanz > Serverraum LC	2015-10-16 04:30	Intel(R) Core(TM) i3-2100 CPU @ 3.10GHz
+LCKN-SRV023	aktiv	FUJITSU	YLAR016544	Physical	PRIMERGY RX300 S7	VMware ESXi		2015-06-01 14:51	Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+LCKN-SRV024	aktiv	Dell Inc.	J8G2G32	Physical	PowerEdge R720	VMware ESXi	Line-Eid-Straße 3, 78467 Konstanz > Serverraum	2015-06-01 09:38	Intel(R) Xeon(R) CPU E5-2643 v2 @ 3.50GHz
+LCKN-SRV028	aktiv	VMware, Inc.	VMware-56 4d 60 ce 7e 4a 27 5c-82 e9 55 c6 4a 49 4f f0	VMware	VMware Virtual Platform	Microsoft Windows Server 2012 Standard	Line-Eid-Straße 3, 78467 Konstanz > Serverraum	2015-09-24 01:34	Intel(R) Xeon(R) CPU E5-2643 v2 @ 3.50GHz
+LCKN-SRV029	aktiv	VMware, Inc.	VMware-56 4d 1c 74 33 26 11 4f-c8 bd 6a 67 82 79 1c 84	VMware	VMware Virtual Platform	Microsoft Windows Server 2012 Standard	Line-Eid-Straße 3, 78467 Konstanz > Serverraum	2015-10-14 15:52	Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+LCKN-SRV032	aktiv	Dell Inc.	7G1RJY1	Physical	PowerEdge R320	Microsoft Windows Server 2012 R2 Standard	Line-Eid-Straße 3, 78467 Konstanz > Serverraum	2015-09-18 16:00	Intel(R) Xeon(R) CPU E5-2407 0 @ 2.20GHz
+LCKN-SRV041	aktiv	VMware, Inc.	VMware-42 01 6f 09 2e 10 a9 fe-54 2c 61 58 19 f4 e5 c5	VMware	VMware Virtual Platform	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz > Serverraum	2015-09-10 10:30	Intel(R) Xeon(R) CPU E5-2643 v2 @ 3.50GHz
+LCKN-WS132	aktiv	Dell Inc.	4CQWF5J	Space-Saving	OptiPlex 390	Microsoft Windows 7 Professional	Jakob-Stadler-Platz 7, 78467 Konstanz	2015-09-21 07:39	Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz
+lckn-ws133	aktiv	Dell Inc.	GF3T9S1	Notebook	Latitude E6320	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-15 09:02	Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+LCKN-WS134	aktiv	Dell Inc.	6G22S2J	Notebook	Latitude D620	Microsoft Windows 7 Professional	Jakob-Stadler-Platz 7, 78467 Konstanz	2015-10-15 09:55	Intel(R) Core(TM)2 CPU T7200 @ 2.00GHz
+lckn-ws135	aktiv	Dell Inc.	D5YS9S1	Notebook	Latitude E6320	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-19 08:23	Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+LCKN-WS137	aktiv	Dell Inc.	6P8CF5J	Space-Saving	OptiPlex 390	Microsoft Windows 7 Professional	Jakob-Stadler-Platz 7, 78467 Konstanz	2015-10-19 08:29	Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz
+LCKN-WS138	aktiv	Dell Inc.	5CQWF5J	Space-Saving	OptiPlex 390	Microsoft Windows 7 Professional	Jakob-Stadler-Platz 7, 78467 Konstanz	2015-10-19 08:37	Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz
+LCKN-WS139	aktiv	Dell Inc.	JD4YMW1	Mini Tower	OptiPlex 7010	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-02 10:39	Intel(R) Core(TM) i3-3225 CPU @ 3.30GHz
+LCKN-WS140	aktiv	Dell Inc.	5839J32	Space-Saving	OptiPlex 3020	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-19 08:33	Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz
+LCKN-WS141	aktiv	Dell Inc.	8MQVD52	Low Profile Desktop	OptiPlex 3020M	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-15 09:31	Intel(R) Core(TM) i3-4160T CPU @ 3.10GHz
+LCKN-WS145	aktiv	Dell Inc.	D69FS42	Space-Saving	OptiPlex 7020	Microsoft Windows 10 Pro	Line-Eid-Straße 3, 78467 Konstanz	2015-10-16 09:20	Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
+lckn-ws156	aktiv	Dell Inc.	902CF5J	Space-Saving	OptiPlex 7010	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-14 10:24	Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
+LCKN-WS157	aktiv	Dell Inc.	3VXCF5J	Space-Saving	OptiPlex 390	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-16 09:35	Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz
+LCKN-WS158	aktiv	Dell Inc.	4VXCF5J	Space-Saving	OptiPlex 390	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-16 08:39	Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz
+LCKN-WS159	inaktiv	Dell Inc.	BSMMH5J	Mini Tower	OptiPlex 7010	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-05-13 14:39	Intel(R) Core(TM) i3-3225 CPU @ 3.30GHz
+LCKN-WS160	aktiv	Dell Inc.	3YQDG5J	Space-Saving	OptiPlex 7010	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-19 08:22	Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
+LCKN-WS161	aktiv	Dell Inc.	FFPBZ42	Mini Tower	OptiPlex 9020	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-02 13:03	Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+LCKN-WS162	aktiv	Dell Inc.	HCP3152	Space-Saving	OptiPlex 7020	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-05-13 14:37	Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
+lckn-ws203	inaktiv	Dell Inc.	9LJ2B5J	Space-Saving	OptiPlex 790	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-05-13 14:42	Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz
+SWYX	aktiv	FUJITSU	YLAP004877	Physical	PRIMERGY RX100 S7	Microsoft Windows Server 2008 R2 Standard	Line-Eid-Straße 3, 78467 Konstanz	2015-10-15 00:11	Intel(R) Xeon(R) CPU E31220 @ 3.10GHz
+ws079	aktiv	Dell Inc.	BLJ2B5J	Space-Saving	OptiPlex 790	Microsoft Windows 7 Professional	Line-Eid-Straße 3, 78467 Konstanz	2015-10-19 08:41	Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz
+Name	Status	Hersteller	Seriennummer	Typ	Modell	Betriebssystem	Standort	Letzte Aktualisierung	Prozessor
