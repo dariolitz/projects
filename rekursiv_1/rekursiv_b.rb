@@ -6,7 +6,7 @@
 # Zerteile in jedem rekursiven Aufruf das Array in möglichst zwei gleichgroße Teil-Arrays.
 # Überlege dir weiterhin eine passende Abbruchbedingung.
 
-array = [4, 5, 7, 3, 23, 6, 49, 50, 2]
+array = [4, 5, 7, 3, 23, 6, 49, 50]
 $lowest = array[0]
 
 def getSmallestElement(array, start = nil, ende = nil)

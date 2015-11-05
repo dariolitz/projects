@@ -8,12 +8,17 @@ def getSmallestElement(array, start = nil, ende = nil)
 		else
 			array.delete_at(ende)
 		end
-		puts "array:#{array}"
 	elsif array.length > 2
+		array_2 = array[(array.length/2+array.length%2)..array.length - 1]
 		array = array[0..(array.length/2+array.length%2) - 1]
+		puts "array:#{array}"
+		puts "array_2:#{array_2}"
+		puts "nex"
 		start = 0
 		ende = array.length - 1
+		ende_2 = array_2.length - 1
 		getSmallestElement(array, start, ende)
+		getSmallestElement(array_2, start, ende_2)
 	end
 end
 getSmallestElement(array)
