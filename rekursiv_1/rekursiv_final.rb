@@ -1,5 +1,3 @@
-$i = 0
-
 def getSmallestElement(array,start,ende)
 	if start == ende # besteht das Array aus einem Element ?
 		min = array[start]
@@ -9,8 +7,6 @@ def getSmallestElement(array,start,ende)
 		elsif array[start] > array[ende]
 			min = array[ende]
 		end
-		puts "min#{$i}:#{min}"
-		$i += 1
 	else # besteht das Array aus mehr als zwei Elementen ?
 		mid = (start + ende) / 2 # mitte des Arrays berechnens
 		min1 = getSmallestElement(array, start, mid) # erster Teil (von start bis mitte)
