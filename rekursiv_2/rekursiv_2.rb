@@ -23,14 +23,15 @@ end
 class Family
 	def create_family
 		carola = Person.new("Carola", nil, nil)
-		andreas = Person.new("Andreas", nil, nil)
-		christian = Person.new("Christian", nil, nil);
-		julia = Person.new("Julia", nil, carola);
-		hugo = Person.new("Hugo", christian, julia);
-		colin = Person.new("Colin", nil, nil);
-		lena = Person.new("Lena", andreas, nil);
-		eva = Person.new("Eva", colin, lena);
-		carl = Person.new("Carl", hugo, eva);
+		sina = Person.new("Sina", nil, nil)
+		andreas = Person.new("Andreas", sina, nil)
+		christian = Person.new("Christian", nil, nil)
+		julia = Person.new("Julia", nil, carola)
+		hugo = Person.new("Hugo", christian, julia)
+		colin = Person.new("Colin", nil, nil)
+		lena = Person.new("Lena", andreas, nil)
+		eva = Person.new("Eva", colin, lena)
+		carl = Person.new("Carl", hugo, eva)
 		
 	 	return carl
 	end
@@ -40,17 +41,26 @@ family = Family.new
 
 carl = family.create_family
 
-def tree(person)
-	if person.father != nil
-		tree(person.father)
+def tree(person, tab) # tab = counter für Einrückungen
+	if person.father # hat die Person einen Vater ?
+		tree(person.father, tab + 1) # Rekursion: immer der Vater der aktuellen Person
 	else
-		puts "#{person.name}s Vater:Unbekannt"
+		(tab + 1).times do
+			print "\t"
+		end		
+		puts "Unbekannt"
 	end
-	puts person.name
-	if person.mother != nil
-		tree(person.mother)
+	tab.times do
+		print "\t"
+	end
+	puts "#{person.name}"
+	if person.mother # hat die Person eine Mutter ?
+		tree(person.mother, tab + 1) # Rekursion: immer die Mutter der aktuellen Person
 	else
-		puts "#{person.name}s Mutter:Unbekannt"
+		(tab + 1).times do
+			print "\t"
+		end
+		puts "Unbekannt"
 	end
 end
-tree(carl)
+tree(carl,0)
