@@ -2,7 +2,7 @@ class Person
 	attr_reader :name, :father, :mother
 
 	def initialize(name, father, mother)
-		@name = name #(String)
+		@name = name # (String)
 		@father = father # (Person Object)
 		@mother = mother # (Person Object)
 	end
@@ -31,16 +31,26 @@ class Family
 		lena = Person.new("Lena", andreas, nil);
 		eva = Person.new("Eva", colin, lena);
 		carl = Person.new("Carl", hugo, eva);
-	 	
+		
 	 	return carl
-
 	end
 end
 
 family = Family.new
 
-def tree(family)
-	puts family.create_family
-end
+carl = family.create_family
 
-tree(family)
+def tree(person)
+	if person.father != nil
+		tree(person.father)
+	else
+		puts "#{person.name}s Vater:Unbekannt"
+	end
+	puts person.name
+	if person.mother != nil
+		tree(person.mother)
+	else
+		puts "#{person.name}s Mutter:Unbekannt"
+	end
+end
+tree(carl)
