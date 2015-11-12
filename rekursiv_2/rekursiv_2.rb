@@ -6,18 +6,6 @@ class Person
 		@father = father # (Person Object)
 		@mother = mother # (Person Object)
 	end
-
-	def get_mother
-		return mother
-	end
-
-	def get_father
-		return father
-	end
-
-	def get_name
-		return name
-	end
 end
 
 class Family

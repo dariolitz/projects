@@ -3,16 +3,15 @@
 
 print "n = "
 n = gets.chomp.to_i
-$counter = 0
 
-def unevenSumFrom1To(n)
+def unevenSumFrom1To(n, counter)
 	if n >= 1 # Abbruchbedingung
 		if n % 2 != 0 # ist ungerade ?
-			$counter += 1
+			counter += 1
 		end
-		unevenSumFrom1To(n-1) # Rekursions
+			counter = unevenSumFrom1To(n - 1, counter) # Rekursion
 	end
-	return $counter
+	return counter
 end
 
-puts unevenSumFrom1To(n)
+puts unevenSumFrom1To(n, counter = 0)
