@@ -1,9 +1,9 @@
-print "Länge:"
+print "Laenge:"
 length = gets.chomp.to_i
 print "Sonderzeichen erlaubt ? (y/n)"
 token = gets.chomp
 
-chars_string = "1234567890abcdefghijklmnopqrstuvwxyz!""§$%&/()><="
+chars_string = "1234567890abcdefghijklmnopqrstuvwxyz!""$%&/()><="
 chars_string_strict = "1234567890abcdefghijklmnopqrstuvwxyz"
 
 if token == "y"
