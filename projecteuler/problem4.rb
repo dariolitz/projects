@@ -24,7 +24,7 @@ while factor_1 > 0 && factor_2 > 0
 			puts "Factor 1: #{factor_1}\nFactor 2: #{factor_2}\nProduct: #{product}"
 		break
 	else
-		puts "Factor 1: #{factor_1}\nFactor 2: #{factor_2}\nProduct: #{product}"
+		puts "Factor 1: #{factor_1}\nFactor 2: #{factor_2}\nProduct: #{product}\n "
 		if factor_1 > 0
 			factor_1 -= 1
 		end
