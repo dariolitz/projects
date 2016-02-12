@@ -1,3 +1,5 @@
+# Schreibe eine rekursiven Algorithmus, der den Stammbaum für eine Person auf der Console ausgibt. 
+# Für die Person Carl, sollte der Stammbaum wie folgt aussehen:
 class Person
 	attr_reader :name, :father, :mother
 

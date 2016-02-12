@@ -14,4 +14,4 @@ def unevenSumFrom1To(n, counter)
 	return counter
 end
 
-puts unevenSumFrom1To(n, counter = 0)
+puts unevenSumFrom1To(n,0)

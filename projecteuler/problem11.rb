@@ -26,31 +26,67 @@ table_array.each_with_index do |line, index|
 	array2 << line.split(" ").map(&:to_i)
 end
 
-puts "#{array2}"
+result = 0
 
 array2.each_with_index do |line, vertical_index|
 	line.each_with_index do |number, horizontal_index|
-		result = 0
-		puts "#{array2[vertical_index[horizontal_index]]}"
-		# puts "at #{horizontal_index},#{vertical_index}: #{line[horizontal_index]}"
-		# if horizontal_index - 3 >= 0
-		# 	result = number * line[horizontal_index - 1] * line[horizontal_index - 2] * line[horizontal_index - 3]
-		# 	puts "result_left: #{result}"			
-		# else
-		# 	puts "void"
-		# end
-		# if horizontal_index + 3 < 19
-		# 	result = number * line[horizontal_index + 1] * line[horizontal_index + 2] * line[horizontal_index + 3]
-		# 	puts "result_right: #{result}"
-		# else
-		# 	puts "void"
-		# end
-		# if vertical_index - 3 >= 0 
-		# 	result = number * line[vertical_index - 1] * line[vertical_index - 2] * line[vertical_index - 3]
-		# 	puts "result_top: #{result}"
-		# else
-		# 	puts "void"
-		# end
-		# puts
+		temp_result = 0
+		puts "at #{horizontal_index},#{vertical_index}: #{line[horizontal_index]}"
+		if vertical_index - 3 >= 0 # top
+			tmp_result = array2[vertical_index][horizontal_index] * array2[vertical_index - 1][horizontal_index] * array2[vertical_index - 2][horizontal_index] * array2[vertical_index - 3][horizontal_index]
+			if tmp_result > result
+				result = tmp_result
+			end
+		end
+
+		if vertical_index + 3 <= 19 # down
+			tmp_result = array2[vertical_index][horizontal_index] * array2[vertical_index + 1][horizontal_index] * array2[vertical_index + 2][horizontal_index] * array2[vertical_index + 3][horizontal_index]
+			if tmp_result > result
+				result = tmp_result
+			end
+		end
+
+		if horizontal_index - 3 >= 0 # left
+			tmp_result = number * line[horizontal_index - 1] * line[horizontal_index - 2] * line[horizontal_index - 3]
+			if tmp_result > result
+			result = tmp_result
+			end			
+		end
+
+		if horizontal_index + 3 <= 19 # right
+			tmp_result = number * line[horizontal_index + 1] * line[horizontal_index + 2] * line[horizontal_index + 3]
+			if tmp_result > result
+				result = tmp_result
+			end
+		end
+
+		if vertical_index - 3 >= 0 && horizontal_index + 3 <= 19
+			tmp_result = array2[vertical_index][horizontal_index]  * array2[vertical_index - 1][horizontal_index + 1] * array2[vertical_index - 2][horizontal_index + 2] * array2[vertical_index - 3][horizontal_index + 3]
+		 	if tmp_result > result
+		 		result = tmp_result
+		 	end
+		end
+
+		if vertical_index + 3 <= 19 && horizontal_index + 3 <= 19
+			tmp_result = array2[vertical_index][horizontal_index]  * array2[vertical_index + 1][horizontal_index + 1] * array2[vertical_index + 2][horizontal_index + 2] * array2[vertical_index + 3][horizontal_index + 3]
+		 	if tmp_result > result
+		 		result = tmp_result
+		 	end
+		end
+
+		if vertical_index + 3 <= 19 && horizontal_index - 3 >= 0
+			tmp_result = array2[vertical_index][horizontal_index]  * array2[vertical_index + 1][horizontal_index - 1] * array2[vertical_index + 2][horizontal_index - 2] * array2[vertical_index + 3][horizontal_index - 3]
+		 	if tmp_result > result
+		 		result = tmp_result
+		 	end
+		end
+
+		if vertical_index - 3 >= 0 && horizontal_index - 3 >= 0
+			tmp_result = array2[vertical_index][horizontal_index]  * array2[vertical_index - 1][horizontal_index - 1] * array2[vertical_index - 2][horizontal_index - 2] * array2[vertical_index - 3][horizontal_index - 3]
+		 	if tmp_result > result
+		 		result = tmp_result
+		 	end
+		end
+		puts result
 	end
 end
