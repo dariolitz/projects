@@ -13,7 +13,7 @@ while primcounter <= 10001
 		end
 	end
 	if prim
-		puts primcounter
+		puts "primcounter:#{primcounter}"
 		primcounter += 1
 		puts i
 	end
