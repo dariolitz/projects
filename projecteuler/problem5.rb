@@ -1,20 +1,21 @@
 # https://projecteuler.net/problem=5
 
-i = 1
+dividend = 1
+result = 0
 
-while 1 + 1 == 2
-	k = 0
-	j = 2
-	while j <= 20
-		k = (i % j)
-		break if k != 0
-		j += 1
+while true
+	divisor = 1
+	result = true
+	while divisor <= 20
+		if dividend % divisor != 0
+			result = false
+			break
+		end
+		divisor += 1
 	end
-	if k == 0
-		puts i
-		puts i.class
+	if result == true
+		puts dividend
 		break
 	end
-	i += 1
+	dividend += 1
 end
-
