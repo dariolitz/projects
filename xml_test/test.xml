@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<job_info  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <queue_info>
+    <job_list state="running">
+      <JB_job_number>277105</JB_job_number>
+      <JAT_prio>0.55500</JAT_prio>
+      <JB_name>python</JB_name>
+      <JB_owner>dev</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2016-08-12T15:39:48</JAT_start_time>
+      <queue_name>dev.q@lckn-srv016</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>277106</JB_job_number>
+      <JAT_prio>0.55500</JAT_prio>
+      <JB_name>python</JB_name>
+      <JB_owner>dev</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2016-08-12T15:39:48</JAT_start_time>
+      <queue_name>dev.q@lckn-srv016</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>277107</JB_job_number>
+      <JAT_prio>0.55500</JAT_prio>
+      <JB_name>python</JB_name>
+      <JB_owner>dev</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2016-08-12T15:39:48</JAT_start_time>
+      <queue_name>dev.q@lckn-srv016</queue_name>
+      <slots>1</slots>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>277108</JB_job_number>
+      <JAT_prio>0.55500</JAT_prio>
+      <JB_name>python</JB_name>
+      <JB_owner>dev</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2016-08-12T15:39:48</JAT_start_time>
+      <queue_name>dev.q@lckn-srv016</queue_name>
+      <slots>1</slots>
+    </job_list>
+  </queue_info>
+  <job_info>
+  </job_info>
+</job_info>

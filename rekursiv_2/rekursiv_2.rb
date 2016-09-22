@@ -23,7 +23,7 @@ class Family
 		eva = Person.new("Eva", colin, lena)
 		carl = Person.new("Carl", hugo, eva)
 		
-	 	return carl
+		return carl
 	end
 end
 

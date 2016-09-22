@@ -53,7 +53,7 @@ def value(displayed)
     displayed = 14
   else
     displayed = displayed.to_i
-  end 
+  end
 end
 
 def suit(displayed)
@@ -68,10 +68,9 @@ def detect(values, count)
   values.detect do |e|
     if values.count(e) == count
       return e, true
-    else
-      return false
     end
   end
+  return false
 end
 
 def high_card(hand1, hand2)
@@ -99,17 +98,17 @@ end
 def one_pair(hand1, hand2)
   pair1 = 0
   values1 = value_array(hand1).reverse!
-  pair1 = values1.detect { |e| values1.count(e) == 2}
+  pair1 = detect(values1, 2)
   pair2 = 0
   values2 = value_array(hand2).reverse!
-  pair2 = values2.detect { |e| values2.count(e) == 2}
-  pair1 = 0 if pair1.nil?
-  pair2 = 0 if pair2.nil?
-  if pair1 > pair2
+  pair2 = detect(values2, 2)
+  pair1 = [0,0] if pair1.nil? || pair1 == false
+  pair2 = [0,0] if pair2.nil? || pair2 == false
+  if pair1[0] > pair2[0]
     return 1
-  elsif pair2 > pair1
+  elsif pair2[0] > pair1[0]
     return 2
-  elsif pair1 != 0 && pair2 != 0 && pair1 == pair2
+  elsif pair1[0] != 0 && pair2[0] != 0 && pair1[0] == pair2[0]
     return 3
   else
     return 0
@@ -118,9 +117,9 @@ end
 
 def two_pairs(hand1, hand2)
   pairs1 = 0
-  values1 = value_array(hand1).reverse!
+  values1 = value_array(hand1)
   pair1_1 = detect(values1, 2)
-  if pair1_1 != false 
+  if pair1_1 != false
     values1.delete(detect(values1, 2)[0])
     pair1_2 = detect(values1, 2)
     if pair1_2 != false
@@ -130,14 +129,13 @@ def two_pairs(hand1, hand2)
   pairs2 = 0
   values2 = value_array(hand2).reverse!
   pair2_1 = detect(values2, 2)
-  if pair2_1 != false 
+  if pair2_1 != false
     values2.delete(detect(values2, 2)[0])
     pair2_2 = detect(values2, 2)
     if pair2_2 != false
       pairs2 = pair2_1[1] && pair2_2[1]
     end
   end
-  puts "two_pairs:: pairs1: #{pairs1}, pairs2: #{pairs2}"
   if pairs1 == true && pairs2 != true
     return 1
   elsif pairs2 == true && pairs1 != true
@@ -306,7 +304,7 @@ def royal_flush(hand1, hand2)
     return 3
   else
     return 0
-  end 
+  end
 end
 
 def get_winner(round)
@@ -346,13 +344,12 @@ def get_winner(round)
                 puts "round: #{round}, winner: #{winner} with high_card"
               elsif winner == 0
                 winner = two_pairs(round[0], round[1])
-                puts "#{winner}"
                 if winner == 3
                   winner = high_card(round[0], round[1])
                   puts "round: #{round}, winner: #{winner} with high_card"
                 elsif winner == 0
-                  winner == one_pair(round[0], round[1])
-                  if winner == 3 && winner == 0
+                  winner = one_pair(round[0], round[1])
+                  if winner == 3
                     winner = high_card(round[0], round[1])
                     puts "round: #{round}, winner: #{winner} with high_card"
                   else
