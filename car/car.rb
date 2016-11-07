@@ -29,16 +29,16 @@ class Car
 
 	def get_on_as_driver(person)
 		if person.is_a?(Person)
-		 if person.location == self.location
-			if self.driver == nil
-				self.driver = person
-				puts "#{person.name} steigt auf der Fahrerseite des #{self.type} ein!"
-			else
-				puts "Es gibt schon einen Fahrer!"
-			end
-			else
-			puts "Fahrer befindet sich nicht im selben Ort wie das Auto!"
-		 end
+    		if person.location == self.location
+                if self.driver == nil
+                    self.driver = person
+                    puts "#{person.name} steigt auf der Fahrerseite des #{self.type} ein!"
+                else
+                    puts "Es gibt schon einen Fahrer!"
+                end
+            else
+                puts "Fahrer befindet sich nicht im selben Ort wie das Auto!"
+    		end
 		else
 			raise(RuntimeError, "#{person.name} ist keine Person!")
 		end
@@ -103,19 +103,19 @@ class Scenario
 	end
 
 	def create_scenario
-		konstanz = Location.new("Konstanz")
-		radolfzell = Location.new("Radolfzell")
-		muenchen = Location.new("Muenchen")
-		golf = Car.new("Golf", konstanz)
-	 	hugo = Person.new("Hugo", konstanz)
-	 	hans = Person.new("Hans", radolfzell)
-		golf.get_on_as_driver(hugo)
-	  golf.drive_to(radolfzell)
-	  golf.get_on_as_codriver(hans)
-	  golf.drive_to(muenchen)
-	  golf.get_off_driver
-	  golf.get_off_codriver
-	  golf.drive_to(muenchen)
+        konstanz = Location.new("Konstanz")
+        radolfzell = Location.new("Radolfzell")
+        muenchen = Location.new("Muenchen")
+        golf = Car.new("Golf", konstanz)
+        hugo = Person.new("Hugo", konstanz)
+        hans = Person.new("Hans", radolfzell)
+        golf.get_on_as_driver(hugo)
+        golf.drive_to(radolfzell)
+        golf.get_on_as_codriver(hans)
+        golf.drive_to(muenchen)
+        golf.get_off_driver
+        golf.get_off_codriver
+        golf.drive_to(muenchen)
 	end
 end
 

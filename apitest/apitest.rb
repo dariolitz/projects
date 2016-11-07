@@ -1,8 +1,6 @@
-require 'koala'
+require 'rspotify'
 
-@graph = Koala::Facebook::API.new("EAACEdEose0cBAPl4w6F4lZBfPOhWHTnlH8fD9GLVYQkniPistGKwmeDQfOqmItZAYgO5RBIW9FTu9EWsSnKqLUGJJGSei4Nw9uLJZCamD4vqmRYiOXIpiyWmiYstxcz1N2r2UzQFR2x2kBHVKfdmAVENGfKb8aVnOD0RBxQGgZDZD")
+RSpotify.authenticate("34f62c6d0da248f18b5a1b9674b61ec9","c2344d5fb5ca4026b5aaef443763f528")
 
-profile = @graph.get_object("me")
-friends = @graph.get_connections("me", "friends")
-
-puts @graph.methods
+me = RSpotify::User.find('11134525102')
+me.playlists.each {|playlist| puts playlist.name }
